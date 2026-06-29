@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Victro Matheus</title>
+  <link rel="stylesheet" href="victor.css">
+</head>
+<body>
+
+
+  <header class="home">
+  <!-- Home -->
+   <nav class="nav-home">
+   <ul>
+<a href="victor-matheus-alves-felix.html"><li>aSobre Mim</li></a>
+<a href="formacao.html">
+  <li>Formação</li>
+</a>
+<a href="portfolio.html">
+  <li>Portfolio</li>
+</a>
+<a href="contato.html">
+  <li>Contato</li>
+</a>
+   </ul>
+   </nav>
+   </header>
+
+   <!--Sobre mim-->
+<div class="sobre">
+  
+    
+         <h1>Sobre Mim</h1>
+  
+       <p>Meu nome é Victor, tenho 24 anos e atualmente estou cursando Engenharia de Software. Desde cedo desenvolvi uma paixão por tecnologia e pela criação de soluções inovadoras. Além dos estudos, gosto muito de jogos, esportes e música, que fazem parte da minha rotina e me inspiram a ser criativo e disciplinado.</p>
+       <p>
+         Meu grande sonho é me tornar um desenvolvedor fullstack, capaz de atuar em todas as camadas de um projeto, desde o front-end até o back-end. Estou sempre em busca de novos aprendizados e desafios que me ajudem a evoluir como profissional e como pessoa.
+        
+       </p>
+ </div>
+
+<!--CONTATO-->
+
+<div class="cont">
+  <h2>Formulário de Contato</h2>
+  <form id="contactForm" novalidate>
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" name="nome">
+      <div id="nomeError" class="error"></div>
+  
+      <label for="email">E-mail:</label>
+      <input type="email" id="email" name="email">
+      <div id="emailError" class="error"></div>
+  
+      <label for="mensagem">Mensagem:</label>
+      <textarea id="mensagem" name="mensagem" rows="4"></textarea>
+      <div id="mensagemError" class="error"></div>
+  
+      <button type="submit">Enviar</button>
+  </form>
+  
+  <div id="successMessage" class="success"></div>
+  
+</div>
+
+<!--JAVASCRIPT-->
+<script src="pagina.js"></script>
+
+
+</body>
+</html>
